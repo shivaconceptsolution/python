@@ -1,91 +1,141 @@
-Nested if--else:-
+Datatype concept in Python:-
+........................................................................................
 
-using this we can write multiple if--else statement using nested sequence.it has outer if and outer else statement which contain inner if--else statement multiple times.
+datatype is used to represent pattern of data and size of data in memory.
 
-if(condition):
- if(condition):
-   statement
- else:
-   statement
-else:
- if(condition):
-   statement
- else:
-  statement
-
-when we want to create the program without using logical operator.
-Ladder if--else:-
-
-it will work step by step using if statement ,else if statement and else statement.
-
-if(condition):
-  statement
-elif(condition):
-  statement
-...
-...
-else:
-  statement
-Multiple if:-
-
-if we want to display multiple conditions with multiple result than we always prefer multiple if statement.
-
-if(condition):
- statement
-if(condition):
-  statement
-...............................
-WAP to check divisibility of number that number is divisible by 3,5 and 9 with all combination?
-Ternary operator in python:-
-..................................................................
-it is used to check condition similar to if--else statement but it provide single statement to solve problem
-var = trueresult if condition  else result.
-............................................................................
-Loop in python script:-
-..........................................................
-it is used to display large repeatable data using repeatable block leval statement.
-loop will work using three different statement.
-
-initialization :   starting point
-
-i=min  or   i=max
-
-limitation or condition:-
-
-i<=max   or   i>=min
-
-iteration or increment |decrement
-
-i=i+1  or i=i-1
-
-type of Loop in python script:-
-
-1 while :- if condition is not fixed then we use while loop
-
-init
-while(condition):
-  statement
-  increment
+python manage datatype automatically according to assigned data.
 
 
+a=10; //a is the integer type
+
+a=12.34 //a will be float type
+
+a=True  //a will be boolean type
+...........................................................................................................
 
 
+Type of Datatype in Python:-
+
+1 Primary data type:-
+
+  int       a=1
+
+  float  a=12.3
  
+  String   a= "hello"
+
+  boolean   a=True
+
+
+2 Composite Data type:-
+  this type datatype contain more than one elements using single variable.
+
+
+    List
+
+    Tuple
+
+    Dictionary
+
+     Object
+
+...........................................................................................................
+    
+Operator Concept in Python:-
+....................................................................................................
+it is used to perform operation using variable and constant.
+
+Operator is used to solve mathmatical,conditional and logical expression.
+
+
+type of operator 
+
+
+1 Arithmatic:- 
+
+  +  Add
+   -  Substraction
+   *  Multiplication
+   /   Division
+  //  Divison without Fractional part
+
+ %   it is used to return remainder after division
+
+   
+2 Conditional:-
+
+   <   Less than
+   >   Greater than
+   <=  Less than equall to
+   >=  Greater than equall to
+   !=   NOT Equall to
+   ==  Equall
+
+
+3   Logical
+
+     And  :-
+
+      a>2 and a<5
+
+      and operator will return true when all conditions will be true     
+
+
+    Or  :-
+
+     a>2 or a<5
+
+     or operator will return true when only one condition will be true.    
+
+
+   Not:-
+
+    this operator is just opposite of true condition and convert to flase
+
+       NOT(a>2 and a<5)
+
+    
+
+4 Assignment operator:-
+
+    this operator is used to assign value of variable and constant
+
+     simple    a=2
+
+     complex  a+=2,a*=5,a/=3
+                      
+
+     a+=2 or a=a+2
+     a*=5 or a=a*5
+
+
+  5 identity operator:-
+      is             it is used to compare two list object .if equall than return true otherwise false
+      is not      it is used to compare  list object.if equll than return false otheriwse true.
+
+
+   6   Search Operator:-
+
+       IN  :-  it will search element from LIST .if element found than return true otheriwise false
+
+
+      NOT IN
+
+     
+   7 Range operator .. : this operator is used to provide range from list element
+
+       [1..5]
 
 
 
-2 for
+.....................................................................................................
 
 
+1 WAP to reverse five digit number?
 
-3 nested for loop
+2 WAP to calculate area of rectangle?
 
-
-
-
-
-
-
+3 WAP to create salary calculator where basic ,ta,da,comm,pf,number of leave will be entered by the user?
 
 
 
@@ -94,40 +144,7 @@ while(condition):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-it provide simple syntax structure to create program.
-
-
-
-
-
-
+  
 
 
 

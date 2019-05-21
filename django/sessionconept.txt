@@ -1,0 +1,25 @@
+What is Session:-
+
+Session is the persistant object or parmanent object.it's value can be retained from one web page to another.
+
+how we can store data in session:-
+
+go to settings.py and edit middleware section
+'django.contrib.sessions.middleware.SessionMiddleware'
+
+go to installed_app
+'django.contrib.sessions'
+
+set data in session
+ request.session['key'] = value
+
+get data from session
+
+var = request.session['key']
+
+delete data from session
+
+ del request.session['key']
+
+
+

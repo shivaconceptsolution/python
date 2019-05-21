@@ -1,0 +1,94 @@
+How we create First Program using Python:-
+......................................................
+
+1 download and install python software by python.org accoring to requirement  python3
+
+
+2 IDLE -----> Python GUI Tools
+
+  Python Console---> instant programming approach
+
+
+  pychom
+  Visual Studio
+  Anaconda
+
+
+History of Python:-
+
+python script was developed in 1980 by guido van rassum .this script was developed to create network driver and driver of open source operating system.
+
+first python script was launched in 1989 under amoeba operating system.
+
+Now python script work into different type of application.
+
+
+and we can create complete application development using python script.
+
+Type of application:-
+
+1 Desktop
+
+
+2 Web Application:- CGI,WSGI by DJANGO
+
+
+3 Mobile Application :- Kivy
+
+
+4 Data Science based application
+
+
+5 machine learning
+
+
+6  AI based software
+
+
+7 Robotics
+
+
+8 Automation Programming and testing
+
+
+9 Multiprocessing system
+
+
+10 Multithreaded System
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

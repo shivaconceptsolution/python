@@ -1,0 +1,163 @@
+Datatype concept in python:-
+......................................................................
+it is used to represent pattern and size of data in memory.
+
+python script manage data type internally according to assigned data.
+
+using this approach python variable or constant identifier can be used in multiple ways in a single program.
+
+type of data type in python:-
+
+1 Number:-
+
+it contain numeric value to represent program.
+
+a=10 #int
+a=10.2 #float
+
+2 String :-  it contain alphabetical values and numeric both using "" and """
+
+s = "hello world"
+
+s= """ welcome in python
+
+it provide script to develop different type of application"""
+
+
+3 Boolean:-  it contain true and false value.
+
+a=true
+Type casting in python:-
+
+we can typecast python datatype from one type to another using two different ways
+
+1 implict conversion:-
+in case of implict .type conversion will be performed automatically.
+
+float type can directly assign int type value and int type can assign to float value without any data loss.
+
+
+2 Explicit conversion:-we will perform type conversion process manually.
+
+for example if we have numeric string and normal string then it will be manully convert.
+
+"1"+1  
+
+python provide in-built function to perform explict type conversion:-
+
+1 str():-  it is used to convert Number type to String type
+
+2 int():-  it is used to convert String type value to int
+
+3 float():-  it is used to convert String type value to float value.
+
+.......................................................................
+
+
+
+
+
+
+
+
+4 List:-  it is similar to array of c and cpp or other language which is used to contain multiple elements using index=>value pair.
+List element can be changed because it provide mutable variable.
+
+x=[1,2,3,4,5]
+print(x[0])
+
+
+
+
+5 Tuple:-  it is similar to list but tuple is immutable means it provide constant list,we can not modify tuple elements.
+
+x=(1,2,3,4,5)
+print(x[0])
+
+
+6 Dictionary :- it is used to store data in a key=>value pair ,key is used to provide identity and value is used to provide elements.
+
+x = {"rno":1001,"sname":"xyz"}
+
+
+7 DateTime:- it is used to store date and time using date ,time modules.
+Conditional Statements in python:-
+
+it provide multiple block leval statement to check condition.
+
+1 simple if:-
+
+if(condition):
+   statement
+
+WAP to increase salary of employee with 500 rs, if entered salary is less then 10000.otherwise same salary will be printed?
+
+
+ 
+2 if--else:-
+
+it provide true block using if and false block using else.
+
+if(condition):
+  statements
+else:
+  statements
+
+
+3 Nested if--else
+
+
+4 Ladder if--else or elseif
+
+
+5 Multiple if
+............................................................................
+Form validation in CI:-
+.............................................................
+validation is used to validate data of forms that it is proper or not.
+
+if data is incorrect then form will not be submitted and provide error.
+
+
+for example ,we will write incorrect emailid and mobileno then form will never submitted and provide validation error.
+
+CI provide form_validation library to validate form.
+..........................................................................
+
+it contain predefine methos to perform validation.
+
+$this->form_validation->run()==TRUE means form is validated
+
+$this->form_validation->set_rules('textfieldname','errormessage','validationtype');
+
+$this->form_validation->set_rules('txtemail','emailid','valid_email');
+
+$this->validation_errors();
+
+it will display error message of validation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+WEB API:-
+..................................................
+
+It provide Application programming interface which contain business code of application which can be easily accessable in Desktop,Web and Mobile Application.
+
+Web API provide Http based Web Url to access the features of API.
+
+
+What is difference between WEB API and Web Services?
+
+WebService Provide Single File Structure hence it's performance is slow as compare to webservice.
+
+WEB API provide MVC Design pattern to develop application hence it's performance is best as compare to web service.
+
+WEB API provide better security as compare to web service.
+
+WebAPI provide clean url to access data from client machine to server machine.
+
+by Default Web Service provide XML type of data but WEB API provide JSON and XML type data.
+
+WEB Service provide WSDL in Client END to access features which is unsecure but WEB API provide direct accessbility from server.
+means WebService use SOAP(Simple Object Access Protocol) 
+
+
+
+
+
+WEB API URL
+
+GET METHOD
+...................................
+api/controllername
+.......................................
+api/controllername/5
+.......................................
+.............................
+
+
+
+API USE FIVE DIFFERENT VERB
+
+HTTPPOST ---------> INSERT
+
+HTTPPut ----------> Edit
+
+HTTPDelete -------> Delete
+
+HTTpGET -----------> Select
+
+
+
+
+
+
+
+
+

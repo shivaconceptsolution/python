@@ -1,0 +1,111 @@
+How we write for loop in python?
+
+it provide simple syntax structure as compare to while loop because we can write all statements in a single line.
+
+for loop always will be implemented when condition will be finite.
+
+for i in range(min,max,increment):
+   print(i)
+
+for i in range(1,10):
+   print(i)
+
+for i in range(min,max,-1):
+  print(i)
+
+........................................................
+
+Program to check prime number?
+
+Nested for loop:-
+
+using this we can write more then one for loop using nested sequence.
+
+for  i in range(min,max):
+   for j in range(min,max):
+     print(j,end="")
+  print()
+
+.................................................................
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
+.............................................................
+Special Statement of python under loop:-
+1 break statement:-
+
+  it is used to terminate loop manually using   condition.
+
+  break statement always will work using  conditional statement.
+
+  
+for i in range(1,5):
+   print(i)
+
+for i in range(1,5):
+   if(i==3):
+     break
+   print(i)
+
+1
+2
+Continue Statement:-
+it is used to skip the data from loop which satisfy the condition.
+
+for i in range(1,10):
+   if(i==3):
+    continue
+  print(i)
+pass statement in python:-
+..........................................................................
+
+it is similar to comment but comment never executed but pass always executed and return null value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

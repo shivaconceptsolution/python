@@ -1,0 +1,28 @@
+how we create view page or template page in django:-
+
+1 create folder for appname/templates/appname/filename
+
+helloapp/templates/helloapp/index.html
+
+
+2 open settings.py and register application
+
+'helloapp.apps.HelloappConfig'
+
+
+3 run following command to activate and link all insalledapps of application
+python manage.py makemigrations appname
+python manage.py migrate
+
+4 create method under views.py
+
+def index(request):
+	s="welcome in DJANGO APP"
+	return render(request,'helloapp/index.html',{'key':s});
+
+5 create view file and write variable
+
+  {{key}}
+
+
+

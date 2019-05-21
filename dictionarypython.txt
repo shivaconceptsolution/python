@@ -1,0 +1,61 @@
+Tuple in Python:-
+.................................................................
+tuple is immutable composite variable of python which is used to create constant list.
+
+it is also used to store elements using proper sequence but we can not append,edit elements of tuples dynamically.
+
+
+Declaration of tuple:-
+
+varname = (value1,value2,value3,value4)
+
+subject = ("phy","chem","maths","eng","hin")
+
+it will be accessed similar to LIST.
+
+for i in range(0,len(subject)):
+  print(subject[i])
+
+for s in subject:
+  print(s)
+
+
+limitation of tuples :  we can modify tuple objects.
+Dictionary concept in python:-
+........................................................................
+dictionaty provide collection of key=>value pair .key is used to provide identity and value is used to provide data.
+
+student = {"rno":1001,"sname":"manish kumar","branch":"cs","fees":12000}
+
+print(student["rno"])
+
+dictionary use foreach loop to display elements .
+
+for key in student:
+   print("key is "+key +" value is "+student[key])
+
+
+Advantage:-
+it provide fast searching operation to search elements set.
+
+it can be easily mapped with table data and JSON (Java script Object Notation)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

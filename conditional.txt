@@ -1,0 +1,62 @@
+COnditional Statement in python:-
+.......................................................................
+it is used to solve condition based problem in an application.
+
+login in the best of conditional based problem.
+
+type of conditional statement
+
+1 simple if:-
+
+if(condition):
+     statement
+
+2 if--else:-
+if(condition):
+    statement
+else:
+     statement
+
+
+WAP to check divisbility of number that number is divisible by 3,5 and 9 in all combination.
+
+nested if--else:-
+
+if we write more than one if--else statement using nested pattern than it is called nested if--else
+
+if condition:
+    if condition:
+        statement
+    else:
+        statement
+else:
+   if condition:
+       statement
+   else:
+       statement
+
+Advantage: - without using logical operator we can create program
+
+Disadvantage:- complex structure
+
+
+Ladder if--else or Else if statement:-
+
+it will work step by step:-
+
+if condition:
+   statement
+elif:
+   statement
+elif:
+    ........
+else:
+   statement
+
+
+
+
+
+
+
+

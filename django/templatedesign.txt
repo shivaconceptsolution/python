@@ -1,0 +1,48 @@
+Project :- collection of appls it has common urls.py which contain different app information.
+
+
+app :-  it contain vaious modules of application and it contain seprate urls.py.
+
+urls.py will contain method information and page url of views.py file.
+
+..........................................
+
+create five pages application.
+
+step1st:-
+
+create templates/appname/filename
+
+
+templates/operatordashboard/index.html
+
+
+step2nd
+
+import module in views.py
+
+from django.shortcuts import render
+
+
+step3rd
+
+wrire render() in place of HttpResonse
+
+
+return render(request,"appname/filename");
+
+
+step4th:-
+register app under project/settings.py
+
+go into install_apps section
+
+ 'appname.apps.appnameConfig'
+
+
+step5th:-
+
+python manage.py migrate
+
+
+

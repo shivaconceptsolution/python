@@ -1,0 +1,21 @@
+step for django project:-
+install python with pip
+
+install django framework
+
+pip install django
+
+create project:-
+django-admin startproject projectname;
+
+start project
+python manage.py runserver
+
+create application 
+python manage.py startapp appname
+
+customize views.py file
+
+create urls.py in apps
+
+customize project url

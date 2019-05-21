@@ -1,0 +1,125 @@
+File Handling operation in Python:-
+.........................................................................
+File is a collection of records .it is used to store program output parmanently in computer hardisk.
+
+File type is based on file extension .
+
+for example we can save record in text file using .txt,.doc,.xlsx,.xls
+
+
+we can store data into binary file also .
+
+for example if we store data in image file,medial file ,object file than we will use binary file system.
+...........................................................................
+
+open("filename","mode of file")
+
+r -----> read
+
+w ------> write
+
+r+ ------> read|write
+
+w+ -------> write|read
+
+rb --------> read binary file
+
+rb+ -------> read and write for binary file
+
+wb+ -------> write and read operation
+
+a --------> it is used to append file
+
+a+ ------> append ,read
+
+ab ------> it is used to append binary file
+
+ab+ -------> append and read binary file
+How we create file ,Write Data on File and Read Data From FIle.
+
+predefine function in python to perform Read,Write and Create file
+
+Create File   open("filename","mode")
+
+write             write()
+
+Read              read()
+
+Absoloute path:-  it is called direct path of operating system.
+
+c:/abc/abc1/hello.txt
+
+
+Relative path:-  we can provide project path
+
+projectfoldername/filename
+
+
+How we read data from file in Python:-
+
+ref  = open(filename,"r")
+ref  = open(filename,"rb")  //binary
+
+ ref  = open(filename,"r+") //read write
+ ref  = open(filename,"rb+") //read write
+Read and write data in a single program
+
+ref= open("filename","w+")
+
+seek() and tell() in python:-
+
+seek() is used to set position of file pointer to particular index.
+
+seek(5)
+
+file pointer index will be set to 5 index char
+
+tell():-  it will return current position of file pointer 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+Component of class in python:-
+1 Data member:-
+   it is used to declare obejct attribute
+   class Student:
+       rno=1001
+       name="xyz"
+
+2 Member function:-
+   it is used to define functionality of object using data member of class and program logic.
+
+type of member function:-
+
+static:-  it provide one time memory allocation to python code.
+
+class Classname:
+   def mehodname():
+      pass
+
+Classname.methodname()
+
+
+dynamic:-  it provide dynamic memory space by object.we will use self keyword as  a parameter to dynamic method
+
+  class classname:
+      def methodname(self):
+         pass
+
+ref = Classname()
+
+3 Constructor:-
+
+it is also called init method in python .it is used to initialized dynamic data member of class.
+
+we can create multiple constructor but only one constructor will be called.
+
+class Classname:
+  def __init__(self):
+        pass
+  def __init__(self,param1,param2):
+       pass
+
+ref = Classname()  
+
+
+we must be create only one constructor at a time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,153 @@
+Operator in python:-
+.....................................
+
+it is used to perform operation using operand,operand can be variable or constant.
+
+python all operator has define as predefine function.
+
+
+type of operator:-
+
+1 increment|decrement
+
+   a=a+1
+   a=a-1
+
+
+
+2 Arithmatic:-
+
+  +,-,*,/,//,%
+
+  +  addition,concatenation
+
+  -  substraction
+
+  *  multiplication
+
+  / divide
+
+ //  divide with highest numeric value 1.2 
+
+  ** power
+
+ %   rem
+
+
+
+3 conditional operator
+
+   <,
+   >,
+   <=,
+   >=
+   !=
+
+
+4  comparision operator
+
+   ==
+   
+5  assignment
+
+   single value assignment   a=2
+   multi  value assignment   a,b,c = 1,2,3
+
+
+
+6 logical operator
+
+   and --> if all condition true then ,and operator return true value
+   or ---> if only one condition will be true then ,or operator will return true value.
+
+  NOT ---> it is just opposite of true statement and convert the data into false statement.
+
+
+
+7  identity operator
+
+    is :-         it is used to compare object ,if it is identical then return true otherwise false
+
+    is not :-      it will return true if object is not identical otherwise return false 
+
+.........................................................
+
+8 Membership operator
+
+   in :-  it is used to check existance of an elements that element is preasent or not.
+
+
+
+  not in:- it will return false value if element exist otherwise return true
+
+
+note: these operator will be used in LIST,Tuple and Dictionary elements.
+
+..........................................................
+
+variable and constant in python:-
+
+
+
+
+if identifier value can be change in program then it is called variable.
+
+
+python variable is very flexible in size and data both.
+
+
+no need to declare data type in python ,it is managed by assigned value.
+
+
+hence we can reuse single variable for multiple type of values
+
+
+identifier=value
+
+Constant:- 
+it is special identifier whose value will be FIXED in complete program.
+
+
+we will use uppercase for constant and lower case for variable.
+
+
+x=10
+
+X=10
+
+.....................................................
+
+Datatype in python:-
+..........................................................
+python manage abstract data type which is used to provide memory allocation to variables and constant.
+
+
+python has two different type of data type
+
+
+value type:-  it use stack memory to reserve data
+
+int type data,float type data,boolean data
+
+
+
+reference type:- it use heap memory to reserve data.
+
+string,list,tuple,dictionary,object
+
+.....................................................
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

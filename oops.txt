@@ -1,0 +1,56 @@
+OOP's Concept in Python:-
+...........................................................................
+
+OOP's means object oriented programming structure .it provide set of rules to create dynamic,secure,reliable,extendile and accessable program code which will be best for real-world application.
+
+RUles                                Features
+
+Class and Object          it is mandatory rules
+                                         All features
+
+
+Data abstraction        Security,Accessbility
+
+
+Data Encapsulation    Usability and Security
+
+
+Polymorphism  :-          Extendbility,Flexbility
+
+
+Inheritance:-                Reusebility
+
+............................................................................
+
+Class and Object:-
+...................................................................
+it is used to define the features of Object using data member and member function.
+class is also called blueprint of object.
+
+class provide separate section to manage object data.
+
+class is a collection of objects where all object should be related with each other.
+
+
+Object:-  it is real world entity which has identity,state and behaviour.
+
+Fruits class only store fruit object
+itemid,itemname,itemprice,itemunit
+
+class Classname:
+     def methodname(self):
+          pass
+
+obj = Classname()   #object memory space 
+obj.methodname()  #call method under object address
+
+
+
+
+
+
+
+
+
+
+

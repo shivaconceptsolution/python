@@ -1,0 +1,52 @@
+
+1 increment|decrement
+
+  a=a+1  //increment 
+  a=a-1  //decrement
+
+
+2  arithmatic
+
+   +,-,*,/,%
+
+3  conditional
+
+   <,>,<=,>=
+
+4  logical
+
+    and -------->   it will work when all condition will be true
+    or -------->    it will work when particular condition will be true
+    !  --------->   it is just opposite of true condition and will converted into false condition
+
+5  comparision
+   ==  
+
+6   Assignment:-  it is used to assign the value to particular variable
+
+6.1  simple
+    a=5
+    b=2
+    c="hello"
+
+6.2  multiple assignment
+
+    a,b,c = 1,2,3
+
+    
+7    identity operators
+      IN     it is used to check that element is exist in LIST,TUPLE and Dictionary or Not.if exist then
+             it return true value
+
+      NOT IN  it is used to provide that element not exist in LIST,Tuple and Dictionary
+
+
+8     Membership operators
+
+       IS | IS Not
+
+       these operator is used to check 
+      
+
+    
+   

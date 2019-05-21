@@ -1,0 +1,37 @@
+Database setup inj django:-
+django provide sqlite database using this we can create table and store information.
+
+if we want to create database then first we configure settings.py file.
+
+it provide databases section with Engine and name 
+by default sqlite is defined we can modify it according to project requirement.
+
+
+define model.py file using respective class according to table.
+
+from django.db import models
+
+class Student(models.Model):
+    rno = models.CharField(max_length=200)
+    sname = models.CharField(max_length=100)
+    branch = models.CharField(max_length=100)
+    fees = model.IntegerField(default=0)
+
+
+//create table student(rno varchar(200),sname varchar(100))
+
+
+python manage.py makemigrations polls
+
+python manage.py migrate
+
+
+create super admin of application
+
+
+python manage.py createsuperuser
+
+
+
+
+	

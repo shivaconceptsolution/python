@@ -1,0 +1,81 @@
+step1st:-
+............................
+
+install python with set path and set pip option
+......................................
+
+step2nd:-
+
+type python in command prompt and check that python path is set or not.
+
+step3rd:-
+
+intsall django
+
+
+pip install django
+
+install django
+...........................................
+create project
+django-admin startproject projectname
+
+enter project
+
+cd projectname
+
+
+start server
+
+python manage.py runserver
+
+create app
+
+python manage.py startapp appname
+
+go int app and edit views.py file
+
+from django.http import HttpResonse
+
+def welcome(request):
+    return HttpResponse("Welcome in Django")
+
+
+create new file in urls.py
+
+edit project urls.py in projectfolder
+
+
+Flow OF DJANGo APPLICATION:-
+
+Request
+
+ProjectApp ---> URLS.PY ----> YOURAPP--->URLS.PY --> METHODName----->DISPLAY RESULT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+How membership operators work in python:-
+
+1 is,is not  :-identity operators
+
+it is used to compare the list ,tuple and dictionary element and return true if element is equall with class otherwise return false.
+
+
+for example if we want to check that variable type is belonging from int class,list class or float class.
+x=10
+if(type(x) is int):
+  print("integer type")
+else:
+  print("other type")
+
+
+
+2 in,not in:-  direct membership operator:-
+
+it is used to check that particular elements is present in list,tuple or dictionary or not.
+User Define Function in Python:-
+
+This type of function is used to contain information that can be re-used in multiple times in single application.
+
+function is generally used to reduce common code of application.
+python provide following syntax to declare and define function.
+
+def functionname():
+   statement
+
+functionname()
+
+type of function in python
+
+1 default:-
+
+  we can not pass parameters ,input will be defined under function block.
+
+1.1 With Return Type
+
+
+1.2 Without Return Type
+
+2 param:-   using this we can pass paremeters from calling function to called function.
+
+2.1 with return type:-
+
+
+
+2.2 without return type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

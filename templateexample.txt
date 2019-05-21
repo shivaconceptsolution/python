@@ -1,0 +1,14 @@
+how we create page template in django:-
+
+templates/polls/index.html
+
+return render(request, 'polls/index.html')
+
+
+python manage.py migrate
+
+open setting.py
+
+'polls.apps.PollsConfig', 
+
+python mange.py makemigrations polls

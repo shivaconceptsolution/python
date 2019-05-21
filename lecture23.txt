@@ -1,0 +1,61 @@
+predefine method to convert ascii to char and char to ascii
+
+ord('a'); //it convert char to ascii
+
+chr(65);  //it convert ascii to char
+
+.....................................................
+
+Conditional Statement in Python:-
+
+it is used to solve condition based problem that condition is true or false.
+
+1 simple if:-
+
+if(condition):
+  statement
+
+2 if--else
+
+if(condition):
+   statement
+else:
+   statement
+
+3 nested if--else
+if(condition):
+   if(condition):
+      statement
+   else:
+      statement 
+
+else:
+   if(condition):
+      statement
+   else:
+      statement 
+
+
+
+4 ladder if--else
+
+if(condition):
+  statement
+elif(condition):
+  statement
+elif(condition):
+  statement
+else:
+  statement  
+
+
+5 multiple if
+..........................................................
+if(condition):
+  statement
+if(condition):
+  statement
+if(condition):
+  statement
+
+

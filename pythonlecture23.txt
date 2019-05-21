@@ -1,0 +1,101 @@
+it is used to perform operation based on operand,operand can be variable or constant.
+
+type of operator
+
+1 increment,decrement
+
+  a=a+1  //increment
+  a=a-1  //decrement
+
+2 assignment operator
+
+  1 single assignment:-   a=2
+  2 multiple assignment:-  a,b,c=1,2,3
+  3 complex assignment:-   a+=2,a*=3,a/=2,a%=3 
+
+
+3 arithmatic operator
+
+  +,-,*,/,**
+
+4 conditional operator:- these operator will return true or false value.
+
+  <   a<b  
+  >   a>b
+  <= a<=b  (composite conditional operator)
+  >= a>=b
+  
+
+5 comparision operator:-  it is used to compare the value of an object.
+
+ ==  it return true when value.
+
+
+6  quote operator:-
+
+ multiline comment
+   '''
+
+
+   '   
+ multiline String """                """
+
+
+7 logical operator
+
+  and   it will true when all condition will true
+  or    it return true when particular condition true
+  not   it is opposite of true statement and convert into false statement 
+
+
+8 identity operator:-compare two object
+
+   is          
+
+   is not
+
+
+9 search opeartor : in,not in 
+
+   it is used to find element from list,tuple and dictionary.
+
+
+
+
+
+
+WAP to create salary calculator where basic,ta,da,comm,pf,hra,leave will be entered by the user calculate gross salary and net salary?
+
+WAP to display 1,3,5 ,7 and 9 using single variable?
+
+
+WAP to display a,b,c,d,e using single variable?
+
+
+WAP to calculate square and cube of any entered number but number should be integer.
+
+
+
+course
+courseid(pk) 10
+coursename   java 
+
+
+student
+rno
+sname
+branch
+fees
+
+courseid(fk)  10
+
+
+
+create TABLE emp(empid int,empname varchar(50),job varchar(50),salary int,deptid int,CONSTRAINT fk_emp_dept FOREIGN key(deptid) REFERENCES dept(deptid))
+
+
+
+ 
+
+
+

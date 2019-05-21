@@ -1,0 +1,348 @@
+what is variable,constant and literals in python script?
+...........................................
+
+variable:-
+
+it is used to contain the value of program using identifier which can be changed by user's input.
+
+python variable will be declared without datatype ,it will be managed by assigned value.
+
+
+declaration:-
+
+
+identifier=value
+
+a=10  #int
+a=10.2 #float
+a=true #boolean
+.....................................
+
+by users input:-
+
+python provide input(message) to take input from users.
+
+a = input("enter first number")
+
+input() return data in String pattern hence we will use explict type conversion to convert String type to integer type.
+
+
+a = int(input("enter first number"))
+
+
+variable nameing convention in python:-
+
+1 single word identifier should be in lower case.
+
+  email="s@gmail.com"
+
+2 multiple word indetifier should be in camelcase
+
+ mobileNumber="981233333"
+
+
+3 special symbol and white space is not allowed in variable declaration
+
+
+4 keyword is also not allowed in variable declaration.
+Program to calculate Simple Interest using variable with user input in python.
+
+
+input variable :- (p*r*t)/100
+
+output variable:- si
+Constant in python Script:-
+....................................
+
+if we can not change the value of identifier in complete program then it is called constant.
+
+we write constant similar to variables in python.
+
+we will declare constant in upper case in a seprate file.
+
+PI=3.14
+ORGNAME="SCS"
+
+save this into constant.py then import it in source filfilename.constantname
+What is Literals in python:-
+
+Literals means the value of variable or constant.
+
+python support binary,octal,decimal,hexadecimal,number,boolean and String type literals.
+
+a=5  #5 is the int type literals
+  5.2
+  true
+  000111 binary
+  0O98   decimal
+............................................
+Operator in python:-
+...........................................
+
+it is used to perform operation using variable or constant.
+
+python define operator using predefine operator type method.
+
+for example if we perform operation for addition then we use + symbol but python internally define it using 
+
+__add__(self):
+
+type of operator
+
+1 increment |decrement
+
+  a=a+1  or a+=1
+  a=a-1  or a-=1
+
+
+
+2 Arithmatic operator
+
+  +,-,*,/,//,%
+
+
+
+3 Conditional operator
+
+  <
+  >
+  <=
+  >=1
+  !=
+
+4 Comparision
+
+   ==
+
+5 Logical
+
+
+  &&     all conditions true then it return true otherwise return false 
+
+a>b && a>c
+
+ t  t    = t
+ t  f    = f
+ f  t    = f
+ f  f    = f
+  || or :- if only one condition is true then it return true value
+
+ t f   = t
+ f t   = t
+ t t   = t
+ f f   = f     
+
+  ! or negation:-  it will convert true condition to false and false condition to true.
+
+
+
+6  Assignment operator:-
+
+  it is used to assign the value into variable or constant.
+
+simple
+  a=2
+  b=3
+  a,b=2,3
+
+complex 
+  a+=5
+  a//=2
+  a%=3
+
+
+7 identity operator:- it is used to compare values using reference
+
+  is      it return true when both object is equall
+
+  is not  it return false if object is not equall with each other.
+
+Python ASSIGNMENT:-
+
+Q1 WAP to swap two number without using third variable?
+
+Q2 WAP to reverse five digit number?
+
+  12345
+
+  54321
+
+Q3 WAP to calculate elctricity bill where unit price and total consumption will be entered by the user?
+
+
+Q4 WAP to perform addition and multiplication of complex number?
+
+3+5i
+4+2i
+...............
+7+7i
+.........................
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+   
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
